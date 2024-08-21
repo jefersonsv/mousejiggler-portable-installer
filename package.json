@@ -1,0 +1,33 @@
+{
+  "name": "mousejiggler-portable-installer",
+  "author": "Jeferson Tenorio",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Mouse Jiggler is a very simple piece of software whose sole function is to 'fake' mouse input to Windows, and jiggle the mouse pointer back and forth",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node index.js"
+  },
+  "bin": {
+    "jsonedit": "./JSONedit.exe"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.15",
+    "download": "^8.0.0",
+    "fs-extra": "^10.1.0",
+    "string-template": "^1.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "tsx": "^4.17.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mousejiggler",
+    "cli",
+    "portable",
+    "windows",
+    "mouse",
+    "jiggler"
+  ]
+}
