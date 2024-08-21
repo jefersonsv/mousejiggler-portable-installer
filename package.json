@@ -6,7 +6,8 @@
   "description": "Install mousejiggler portable using npm/yarn package manager",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node index.js"
+    "postinstall": "node index.js",
+    "postuninstall": "node uninstall.js"
   },
   "bin": {
     "mousejiggler": "./mousejiggler/MouseJiggler.exe"
