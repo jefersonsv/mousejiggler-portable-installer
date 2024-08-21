@@ -2,7 +2,7 @@
 
 Mouse Jiggler is a very simple piece of software whose sole function is to 'fake' mouse input to Windows, and jiggle the mouse pointer back and forth
 
-Install globally using NPM or Yarn packgage manager
+Install mousejiggler portable using npm/yarn package manager
 
 NOTE: Works just on Windows OS
 
